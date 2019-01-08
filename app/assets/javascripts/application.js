@@ -18,6 +18,5 @@
 //= require jquery.validate
 //= require jquery.validate.localization/messages_ja
 //= require toastr
-//= require masonry-layout/dist/masonry.pkgd
 //= require Chart.min
 //= require_tree .

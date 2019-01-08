@@ -18,7 +18,7 @@
 //= require jquery.validate
 //= require jquery.validate.localization/messages_ja
 //= require toastr
-//= require infinite-scroll/dist/infinite-scroll.pkgd
+//= require nfinite-scroll.pkgd
 //= require masonry-layout/dist/masonry.pkgd
 //= require Chart.min
 //= require_tree .

@@ -24,7 +24,7 @@
             end
             [user.name, user.id, { 'data-content': "<img class='img-circle profile-mini' src=#{user.image}> #{user.name} #{team_name}" }]
           else
-            [user.email, user.id, { 'data-content': "<i class='fa fa-envelope fa-lg' aria-hidden='true'></i> #{user.email}" }]
+            [user.name, user.id, { 'data-content': "<i class='fa fa-envelope fa-lg' aria-hidden='true'></i> #{user.email}" }]
           end
         end
       %>

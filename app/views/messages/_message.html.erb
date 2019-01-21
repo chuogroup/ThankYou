@@ -2,7 +2,7 @@
   <div class="image">
     <div class="img-wrap">
       <div class="media">
-        <div class="media-left">
+        <div class="media-left" style="white-space: nowrap;">
           <% if message.sender.provider %>
             <% if message.sender.image %>
               <%= image_tag message.sender.image, class: 'img-rounded media-object profile-1' %>
@@ -17,7 +17,7 @@
           <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
         </div>
 
-        <div class="media-right">
+        <div class="media-right" style="white-space: nowrap;">
           <% if message.recipient.provider %>
             <% if message.recipient.image %>
               <%= image_tag message.recipient.image, class: 'img-rounded media-object profile-1 pull-right' %>

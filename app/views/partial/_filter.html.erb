@@ -1,5 +1,5 @@
 <%
-  option = users.map do |user|
+  option = users.map do |user.order(:team)|
     if user.provider
       team_name = if user.team.present?
         "<b>@#{user.team}</b>"

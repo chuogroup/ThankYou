@@ -59,8 +59,7 @@ class MessagesController < ApplicationController
   end
 
   def set_users
-    User.order(:team)
-    @users = User.all
+    @users = User.all.order(:team)
   end
 
   def set_messages
